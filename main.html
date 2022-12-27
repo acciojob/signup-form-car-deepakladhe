@@ -7,34 +7,47 @@
 </head>
 
 <body>
-	<form method="post">
-    <label for="Name">  Name: <input type="text" id="#name" name="Deepak" required>   </label> <br><br>
-			
-    <label for="Email"> Email: <input type="text" id="#email" name="123@gmail.com" required>  </label> <br><br>
-
-	<label for="Gender"> Gender: <input type="radio" name="Gender" value="male" id="#Gender" required> Male</label>
-                                 <input type="radio" name="Gender" value="female" id="#Gender" required>Female</label> <BR></BR>
-	
-	<label for="Car Brands"> Car Brands :  <select name="Select brands" id="#car" required>
-                                <option value="bmw">BMW</option>
-								<option value="Audi">Audi</option>
-								<option value="Mercedez">Mercedez</option>
-
-								 </select></label> <br><br>		
-								 
-	<label for="age"> Age: <input type="number" value="number" id="#age" required> </label>	<br><br>		
-	
-	<label for="DOB"> DOB: <input type="date" name="dob" id="#dob" required></label> <br><br>
-
-	<label for="Password"> Password : <input type="password" id="#password" required> </label> <br><br>
-
-	<button type="submit"> Submit </button>
-
-
-
-
-</form>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<label for="name">
+		Name: <input type="text" value="Abdul" id="name" required>
+		</label><br><br>
+
+		<label for="email">
+		   Email: <input type="email" value="xyz@gmail.com" id="email" required>
+		</label><br><br>
+
+		<label for="portfolio">
+			Portfolio: <input type="url" value="www.grandcoder.in" id="portfolio">
+		 </label><br><br>
+
+		<label for="gender">
+			Gender: <input type="radio" name="gender" value="Male" id="gender" required>
+			<input type="radio" name="gender" value="Female" id="gender" required>
+		 </label><br><br>
+
+        <label for="cars">
+			Laptop Brands: 
+			<select name="car_brands" id="cars" required>
+				<option value="BMW">BMW</option>
+				<option value="Audi">Audi</option>
+				<option value="Mercedez">Mercedez</option>
+			  </select>
+		</label><br><br>
+
+		<label for="age">
+			Age: <input type="number" value="22" id="age" required>
+		 </label><br><br>
+
+		 <label for="dob">
+			DOB: <input type="date" value="12/10/2022" id="dob" required>
+		 </label><br><br>
+
+		 <label for="password">
+			Password: <input type="password" value="abdul123@" id="password" required>
+		 </label><br><br>
+		 <button type='submit'>Button</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
